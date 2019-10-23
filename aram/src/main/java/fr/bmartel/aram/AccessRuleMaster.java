@@ -34,7 +34,7 @@ import org.globalplatform.Application;
  *
  * @author Bertrand Martel
  */
-public class AccessRuleMaster extends Applet implements Application {
+public class AccessRuleMaster extends Applet {
 
     public final static byte INS_STORE_DATA = (byte) 0xE2;
     public final static byte INS_GET_DATA = (byte) 0xCA;
